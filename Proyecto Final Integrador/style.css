@@ -1,0 +1,134 @@
+*{
+    font-family:'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+h1{ 
+    padding: 20px;
+    height: 120px;
+    background-color: rgb(7, 0, 99);
+    color: white;
+    margin-left: 0;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+@media all and (min-width:720px) {
+    h1{ 
+        padding: 20px;
+        height: 120px;
+        background-color: rgb(7, 0, 99);
+        color: white;
+        margin-left: 0;
+        font-size: 70px;
+        text-align: center;
+        
+    }
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: -10px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(7, 0, 99);
+    color: white;
+}
+
+
+.texto{
+    text-align: left;
+    margin-left: 30px;
+    border: 2px;
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Abril Fatface';
+}
+
+@media all and (min-width:720px) { 
+    .texto{ 
+        margin-left: 30px;
+        border: 2px;
+        padding: 20px;
+        font-size: 40px;
+        font-family: 'Abril Fatface';
+}}
+
+@media all and (min-width:960px) { 
+    .texto{ 
+        margin-left: 30px;
+        border: 2px;
+        padding: 20px;
+        font-size: 55px;
+        font-family: 'Abril Fatface';
+}}
+
+.container{
+    text-align: center;
+    margin: 20px;
+    border: 5px;
+    padding: 20px;
+    width: 350px;
+    height: 390px;
+    float: left;
+    border-radius: 1rem;
+    background-color:rgb(208, 195, 255);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.imagen{
+    vertical-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.icono{
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.datos{
+    text-align: left;
+}
+
+
+.navegacion {
+    width: 200px;
+    margin: 30px 30px;   
+    background: rgb(7, 0, 99);
+    text-decoration: none;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.lista_curriculum > li{
+    position: relative;
+    display: inline-block;
+}
+
+.lista_curriculum > li > a{
+    display: block;
+    padding: 15px 20px;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.lista_curriculum  li  a:hover{
+    color: rgb(208, 195, 255);
+}
+
+.sublista_curriculum{
+    position: absolute;
+    display: none;
+}
+
+.lista_curriculum li:hover .sublista_curriculum{
+    
+    display: block;
+}
